@@ -1,0 +1,112 @@
+2024-01-30 01:00:53.736 EAT [30923] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 01:00:53.738 EAT [30923] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 01:00:53.742 EAT [30923] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 01:00:53.759 EAT [30928] LOG:  database system was interrupted; last known up at 2024-01-29 20:32:14 EAT
+2024-01-30 01:00:54.705 EAT [30928] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-01-30 01:00:54.714 EAT [30928] LOG:  redo starts at 0/1D5C420
+2024-01-30 01:00:54.714 EAT [30928] LOG:  invalid record length at 0/1D5C458: expected at least 24, got 0
+2024-01-30 01:00:54.714 EAT [30928] LOG:  redo done at 0/1D5C420 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-01-30 01:00:54.737 EAT [30926] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-01-30 01:00:54.765 EAT [30926] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.004 s, total=0.035 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1D5C458, redo lsn=0/1D5C458
+2024-01-30 01:00:54.792 EAT [30923] LOG:  database system is ready to accept connections
+2024-01-30 06:58:53.989 EAT [28930] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 06:58:54.003 EAT [28930] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 06:58:54.005 EAT [28930] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 06:58:54.022 EAT [28935] LOG:  database system was shut down at 2024-01-30 06:51:10 EAT
+2024-01-30 06:58:54.173 EAT [28930] LOG:  database system is ready to accept connections
+2024-01-30 07:03:54.055 EAT [28933] LOG:  checkpoint starting: time
+2024-01-30 07:03:54.108 EAT [28933] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.012 s, sync=0.004 s, total=0.053 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1D5C6A0, redo lsn=0/1D5C668
+2024-01-30 07:32:20.591 EAT [28930] LOG:  received fast shutdown request
+2024-01-30 07:32:20.600 EAT [28930] LOG:  aborting any active transactions
+2024-01-30 07:32:20.659 EAT [28930] LOG:  background worker "logical replication launcher" (PID 28938) exited with exit code 1
+2024-01-30 07:32:20.660 EAT [28933] LOG:  shutting down
+2024-01-30 07:32:20.663 EAT [28933] LOG:  checkpoint starting: shutdown immediate
+2024-01-30 07:32:20.709 EAT [28933] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.014 s, sync=0.001 s, total=0.048 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1D5C750, redo lsn=0/1D5C750
+2024-01-30 07:32:20.730 EAT [28930] LOG:  database system is shut down
+2024-01-30 07:32:28.133 EAT [32421] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 07:32:28.135 EAT [32421] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 07:32:28.138 EAT [32421] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 07:32:28.154 EAT [32426] LOG:  database system was shut down at 2024-01-30 07:32:20 EAT
+2024-01-30 07:32:28.179 EAT [32421] LOG:  database system is ready to accept connections
+2024-01-30 07:37:28.251 EAT [32424] LOG:  checkpoint starting: time
+2024-01-30 07:37:28.287 EAT [32424] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.003 s, total=0.037 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1D5C838, redo lsn=0/1D5C800
+2024-01-30 07:37:44.275 EAT [32421] LOG:  received fast shutdown request
+2024-01-30 07:37:44.276 EAT [32421] LOG:  aborting any active transactions
+2024-01-30 07:37:44.285 EAT [32421] LOG:  background worker "logical replication launcher" (PID 32429) exited with exit code 1
+2024-01-30 07:37:44.292 EAT [32424] LOG:  shutting down
+2024-01-30 07:37:44.294 EAT [32424] LOG:  checkpoint starting: shutdown immediate
+2024-01-30 07:37:44.315 EAT [32424] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.023 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1D5C8E8, redo lsn=0/1D5C8E8
+2024-01-30 07:37:44.332 EAT [32421] LOG:  database system is shut down
+2024-01-30 07:37:51.475 EAT [32594] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 07:37:51.477 EAT [32594] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 07:37:51.480 EAT [32594] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 07:37:51.496 EAT [32599] LOG:  database system was shut down at 2024-01-30 07:37:44 EAT
+2024-01-30 07:37:51.517 EAT [32594] LOG:  database system is ready to accept connections
+2024-01-30 07:39:48.180 EAT [32594] LOG:  received fast shutdown request
+2024-01-30 07:39:48.183 EAT [32594] LOG:  aborting any active transactions
+2024-01-30 07:39:48.192 EAT [32594] LOG:  background worker "logical replication launcher" (PID 32602) exited with exit code 1
+2024-01-30 07:39:48.196 EAT [32597] LOG:  shutting down
+2024-01-30 07:39:48.199 EAT [32597] LOG:  checkpoint starting: shutdown immediate
+2024-01-30 07:39:48.989 EAT [32597] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.005 s, total=0.792 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/1D5C998, redo lsn=0/1D5C998
+2024-01-30 07:39:49.013 EAT [32594] LOG:  database system is shut down
+2024-01-30 07:39:55.509 EAT [747] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 07:39:55.510 EAT [747] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 07:39:55.512 EAT [747] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 07:39:55.522 EAT [752] LOG:  database system was shut down at 2024-01-30 07:39:48 EAT
+2024-01-30 07:39:55.540 EAT [747] LOG:  database system is ready to accept connections
+2024-01-30 07:44:55.605 EAT [750] LOG:  checkpoint starting: time
+2024-01-30 07:44:55.692 EAT [750] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.030 s, sync=0.006 s, total=0.098 s; sync files=2, longest=0.004 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/1D5CA80, redo lsn=0/1D5CA48
+2024-01-30 08:03:12.222 EAT [747] LOG:  received fast shutdown request
+2024-01-30 08:03:12.236 EAT [747] LOG:  aborting any active transactions
+2024-01-30 08:03:12.267 EAT [747] LOG:  background worker "logical replication launcher" (PID 755) exited with exit code 1
+2024-01-30 08:03:12.268 EAT [750] LOG:  shutting down
+2024-01-30 08:03:12.275 EAT [750] LOG:  checkpoint starting: shutdown immediate
+2024-01-30 08:03:12.325 EAT [750] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.001 s, total=0.057 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1D5CB30, redo lsn=0/1D5CB30
+2024-01-30 08:03:12.346 EAT [747] LOG:  database system is shut down
+2024-01-30 08:03:18.897 EAT [4282] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 08:03:18.898 EAT [4282] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 08:03:18.900 EAT [4282] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 08:03:18.916 EAT [4287] LOG:  database system was shut down at 2024-01-30 08:03:12 EAT
+2024-01-30 08:03:18.937 EAT [4282] LOG:  database system is ready to accept connections
+2024-01-30 08:08:08.360 EAT [4784] ERROR:  relation "users" does not exist at character 35
+2024-01-30 08:08:08.360 EAT [4784] STATEMENT:  select count(*) as aggregate from "users" where "email" = $1
+2024-01-30 08:08:19.014 EAT [4285] LOG:  checkpoint starting: time
+2024-01-30 08:08:19.215 EAT [4285] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.128 s, sync=0.004 s, total=0.204 s; sync files=3, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1D5CC18, redo lsn=0/1D5CBE0
+2024-01-30 08:11:33.982 EAT [4282] LOG:  received fast shutdown request
+2024-01-30 08:11:33.988 EAT [4282] LOG:  aborting any active transactions
+2024-01-30 08:11:34.020 EAT [4282] LOG:  background worker "logical replication launcher" (PID 4290) exited with exit code 1
+2024-01-30 08:11:34.023 EAT [4285] LOG:  shutting down
+2024-01-30 08:11:34.114 EAT [4285] LOG:  checkpoint starting: shutdown immediate
+2024-01-30 08:11:34.191 EAT [4285] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.001 s, total=0.168 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1D5CCC8, redo lsn=0/1D5CCC8
+2024-01-30 08:11:34.211 EAT [4282] LOG:  database system is shut down
+2024-01-30 08:26:36.482 EAT [6248] LOG:  starting PostgreSQL 16.1 on arm-unknown-linux-androideabi, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 32-bit
+2024-01-30 08:26:36.484 EAT [6248] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-30 08:26:36.487 EAT [6248] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-01-30 08:26:36.504 EAT [6253] LOG:  database system was shut down at 2024-01-30 08:11:34 EAT
+2024-01-30 08:26:36.535 EAT [6248] LOG:  database system is ready to accept connections
+2024-01-30 08:31:36.626 EAT [6251] LOG:  checkpoint starting: time
+2024-01-30 08:31:37.481 EAT [7615] ERROR:  syntax error at or near "6" at character 49
+2024-01-30 08:31:37.481 EAT [7615] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "%Y-%m-%d") AS date
+2024-01-30 08:31:39.652 EAT [7616] ERROR:  syntax error at or near "5" at character 49
+2024-01-30 08:31:39.652 EAT [7616] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 5 MONTH), "%Y-%m") AS month
+2024-01-30 08:31:51.604 EAT [6251] LOG:  checkpoint complete: wrote 147 buffers (0.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=14.777 s, sync=0.124 s, total=14.982 s; sync files=107, longest=0.011 s, average=0.002 s; distance=547 kB, estimate=547 kB; lsn=0/1DE59D8, redo lsn=0/1DE59A0
+2024-01-30 08:32:13.575 EAT [7746] ERROR:  syntax error at or near "6" at character 49
+2024-01-30 08:32:13.575 EAT [7746] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "%Y-%m-%d") AS date
+2024-01-30 08:32:18.558 EAT [7754] ERROR:  syntax error at or near "5" at character 49
+2024-01-30 08:32:18.558 EAT [7754] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 5 MONTH), "%Y-%m") AS month
+2024-01-30 08:32:34.282 EAT [7776] ERROR:  syntax error at or near "6" at character 49
+2024-01-30 08:32:34.282 EAT [7776] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "%Y-%m-%d") AS date
+2024-01-30 08:32:37.914 EAT [7787] ERROR:  syntax error at or near "5" at character 49
+2024-01-30 08:32:37.914 EAT [7787] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 5 MONTH), "%Y-%m") AS month
+2024-01-30 08:37:42.381 EAT [8358] ERROR:  syntax error at or near "6" at character 49
+2024-01-30 08:37:42.381 EAT [8358] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "%Y-%m-%d") AS date
+2024-01-30 08:37:44.562 EAT [8359] ERROR:  syntax error at or near "5" at character 49
+2024-01-30 08:37:44.562 EAT [8359] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 5 MONTH), "%Y-%m") AS month
+2024-01-30 08:38:46.207 EAT [8444] ERROR:  syntax error at or near "6" at character 49
+2024-01-30 08:38:46.207 EAT [8444] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "%Y-%m-%d") AS date
+2024-01-30 08:38:50.199 EAT [8460] ERROR:  syntax error at or near "5" at character 49
+2024-01-30 08:38:50.199 EAT [8460] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 5 MONTH), "%Y-%m") AS month
+2024-01-30 08:39:50.901 EAT [8520] ERROR:  syntax error at or near "6" at character 49
+2024-01-30 08:39:50.901 EAT [8520] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "%Y-%m-%d") AS date
+2024-01-30 08:39:53.388 EAT [8521] ERROR:  syntax error at or near "5" at character 49
+2024-01-30 08:39:53.388 EAT [8521] STATEMENT:  SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 5 MONTH), "%Y-%m") AS month
