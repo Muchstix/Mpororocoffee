@@ -28,14 +28,14 @@
 
         <div class="col-lg-5 col-md-6 d-none d-md-block">
           <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{ asset('storage/home/laracoffee.jpg') }}" alt="laracoffee">
+            <img src="{{ asset('storage/home/Mpororocoffee.jpg') }}" alt="Mpororocoffee">
           </div>
         </div>
 
         <div class="col-lg-7 col-md-6">
           <div class="about-content" data-aos="fade-left" data-aos-delay="100">
             <h2>About Mpororo coffee</h2>
-            <p>A complex blend designed using beans from South America. 
+            <p>A complex blend designed using beans from Uganda. 
               Notes of caramelised brown sugar follow a citrus-like acidity,
                ending with a smooth milk chocolate finish prominent with the addition of milk. A clean and bright coffee presents itself in the black drink. The Mpororo blend works well with bean to cup machines..</p>
           </div>

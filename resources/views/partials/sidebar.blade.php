@@ -7,49 +7,94 @@
                 Dashboard
             </a>
             <a class="nav-link" href="/transaction">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-briefcase"></i></div>
                 Capital
-            </a>
-	    <a class="nav-link" href="/home/customers>
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
+	    <a class="nav-link" href="/home/customers> 
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-regular fa-address-book"></i></div>
                 Farmers
-            </a>
-	    <a class="nav-link" href="/Purchase">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
+	    <a class="nav-link" href="/Purchase"> 
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-square-pen"></i></div>
                 Purchase
-            </a>
-	    <a class="nav-link" href="/Purchase Records">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
+	    <a class="nav-link" href="/Purchase Records"> 
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-square-poll-horizontal"></i></div>
                 Purchase Records
             </a>
-	    <a class="nav-link" href="/Advance">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+	    <a class="nav-link" href="/Advance"> 
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-scale-balanced"></i></div>
                 Advance
-            </a>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
 	    <a class="nav-link" href="/Petty Cash">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-wallet"></i></div>
                 Petty Cash
             </a>
-	    <a class="nav-link" href="/Stock">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+	    <a class="nav-link" href="/Stock"> 
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-vault"></i></div>
                 Stock
-            </a>
-	    <a class="nav-link" href="/Reports">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
+	    <a class="nav-link" href="/Reports"> 
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-chart-pie"></i></div>
                 Reports
-            </a>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
 	    <a class="nav-link" href="/Branches">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-landmark"></i></div>
                 Branches
-            </a>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
 	    <a class="nav-link" href="/Users">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-address-book"></i></div>
                 Users
-            </a>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
 	    <a class="nav-link" href="/Setting">
-                <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
+                <div class="sb-nav-link-icon"><i class="fa-solid fa-gear"></i></div>
                 Setting
-            </a>
+            </a></li>
+            <ul class="lev2">
+              <li><a href="#">sub cat 1</a></li>
+              <li><a href="#">sub cat 2</a></li>
+            </ul>
+            <li>
             @else
             <div class="sb-sidenav-menu-heading">Customer</div>
             <a class="nav-link" href="/home">
@@ -86,3 +131,11 @@
         {{ auth()->user()->role->role_name }}
     </div>
 </nav>
+
+li + .lev2 {
+    display: none;
+  }
+  
+  li:focus-within + .lev2 {
+    display: block;
+  }
