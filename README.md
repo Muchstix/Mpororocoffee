@@ -1,6 +1,6 @@
-# Laracoffee
+# Mpororocoffee
 
-Laracoffee is a web application built using the Laravel framework that allows users to browse and order coffee products online.
+Mpororocoffee is a web application built using the Laravel framework that allows users to browse and order coffee products online.
 
 ## Table of Contents
 
@@ -35,12 +35,12 @@ Laracoffee is a web application built using the Laravel framework that allows us
 - Order History: Users can review their order history.
 ## Installation
 
-To run Laracoffee locally, follow these steps:
+To run Mpororocoffee locally, follow these steps:
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/snykk/Laracoffee.git
+   git clone https://github.com/snykk/Mpororocoffee.git
    ```
 2. Change to the project directory
     ```bash
@@ -90,59 +90,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to your fork: `git push origin feature-name`.
 5. Create a pull request on the original repository.
 
-## License
-This project is licensed under the [MIT License](https://github.com/snykk/Laracoffee/blob/master/LICENSE).
-
-## UI
-
-### Admin Page
-##### Dashboard
-!["Dashboard"](/storage/assets/Admin/dashboard.PNG)
-##### Customer Lists
-!["Customer Lists"](/storage/assets/Admin/customer_lists.PNG)
-##### Transaction Lists
-!["Transaction Lists"](/storage/assets/Admin/transactions.PNG)
-##### Product Page
-!["Product"](/storage/assets/Admin/product.PNG)
-##### Add Product
-!["Add Product"](/storage/assets/Admin/add_product.PNG)
-
-##### Edit Product
-!["Edit Product"](/storage/assets/Admin/edit_product.PNG)
-##### Detail Order
-!["Edit Product"](/storage/assets/Admin/detail_order.PNG)
-##### History Order
-!["History Order"](/storage/assets/Admin/history_order.PNG)
-
-### General User
-##### Registration Page
-!["Registration Page"](/storage/assets/User/registration.PNG)
-##### Authentication Page
-!["Authentication Page"](/storage/assets/User/authentication.PNG)
-##### Home
-!["Home"](/storage/assets/User/home.PNG)
-##### User Point
-!["User Point"](/storage/assets/User/user_point.PNG)
-##### Detail Profile
-!["Detail Profile"](/storage/assets/User/profile.PNG)
-##### Edit Profile
-!["Edit Profile"](/storage/assets/User/edit_profile.PNG)
-##### Product Page
-!["Product"](/storage/assets/User/product.PNG)
-##### Product Detail
-!["Product Detail"](/storage/assets/User/product_detail.PNG)
-##### Make an Order
-!["Order Page"](/storage/assets/User/make_an_order.PNG)
-##### List of Order
-!["List of Orders"](/storage/assets/User/order_list.PNG)
-##### Upload Proof of Transfer
-!["Proof of Transfer"](/storage/assets/User/upload_bukti.PNG)
-##### Order Detail
-!["Order Detail"](/storage/assets/User/order_detail.PNG)
-##### Edit Order
-!["Edit Order"](/storage/assets/User/edit_order.PNG)
-##### Submit a Review
-!["Submit a Review"](/storage/assets/User/submit_review.PNG)
-
-## In Summary
- Feel free to explore the application and give it a try yourself. If you have any questions or encounter any issues, please don't hesitate to reach out. Your feedback is greatly appreciated. Happy exploring!!!
