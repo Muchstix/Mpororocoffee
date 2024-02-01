@@ -1,6 +1,6 @@
-# Mpororocoffee
+# Laracoffee
 
-Mpororocoffee is a web application built using the Laravel framework that allows users to browse and order coffee products online.
+Laracoffee is a web application built using the Laravel framework that allows users to browse and order coffee products online.
 
 ## Table of Contents
 
@@ -35,40 +35,46 @@ Mpororocoffee is a web application built using the Laravel framework that allows
 - Order History: Users can review their order history.
 ## Installation
 
-To run Mpororocoffee locally, follow these steps:
+To run Laracoffee locally, follow these steps:
 
+1. Clone this repository:
 
-1. Change to the project directory
+   ```bash
+   git clone https://github.com/snykk/Laracoffee.git
+   ```
+2. Change to the project directory
     ```bash
-    cd Mpororocoffee
+    cd laracoffee
     ```
-2. Install the project dependencies
+3. Install the project dependencies
     ```bash
     composer install
     npm install
     ```
-3. Copy the .env.example file to .env and configure your environment variables, including your database settings and any other necessary configuration.
+4. Copy the .env.example file to .env and configure your environment variables, including your database settings and any other necessary configuration.
     ```bash
     copy .env.example .env
     ```
-4. Generate an application key
+5. Generate an application key
     ```bash
     php artisan key:generate
     ```
-5. Migrate the database
+6. Migrate the database
     ```bash
     php artisan migrate
     ```
-6. Seed the database with sample data (optional):
+7. Seed the database with sample data (optional):
     ```bash
     php artisan db:seed
     ```
-7. Start the development server
+8. Start the development server
     ```bash
     php artisan serve
     ```
-8. Access the application in your browser at http://localhost:8000
+9. Access the application in your browser at http://localhost:8000
 
+10 
+   /nix/store/hxpwfhslscfak9vh9ksxbzzpbkqlspgh-postgresql-15.5/bin/pg_ctl -D '$/home/runner/Mpororocoffee/postgresql' -l logfile start
 ## Usage
 - Visit the website and register for an account.
 - Browse the available coffee products, add them to your cart, and proceed to checkout.
@@ -84,6 +90,59 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to your fork: `git push origin feature-name`.
 5. Create a pull request on the original repository.
 
+## License
+This project is licensed under the [MIT License](https://github.com/snykk/Laracoffee/blob/master/LICENSE).
 
- 
+## UI
 
+### Admin Page
+##### Dashboard
+!["Dashboard"](/storage/assets/Admin/dashboard.PNG)
+##### Customer Lists
+!["Customer Lists"](/storage/assets/Admin/customer_lists.PNG)
+##### Transaction Lists
+!["Transaction Lists"](/storage/assets/Admin/transactions.PNG)
+##### Product Page
+!["Product"](/storage/assets/Admin/product.PNG)
+##### Add Product
+!["Add Product"](/storage/assets/Admin/add_product.PNG)
+
+##### Edit Product
+!["Edit Product"](/storage/assets/Admin/edit_product.PNG)
+##### Detail Order
+!["Edit Product"](/storage/assets/Admin/detail_order.PNG)
+##### History Order
+!["History Order"](/storage/assets/Admin/history_order.PNG)
+
+### General User
+##### Registration Page
+!["Registration Page"](/storage/assets/User/registration.PNG)
+##### Authentication Page
+!["Authentication Page"](/storage/assets/User/authentication.PNG)
+##### Home
+!["Home"](/storage/assets/User/home.PNG)
+##### User Point
+!["User Point"](/storage/assets/User/user_point.PNG)
+##### Detail Profile
+!["Detail Profile"](/storage/assets/User/profile.PNG)
+##### Edit Profile
+!["Edit Profile"](/storage/assets/User/edit_profile.PNG)
+##### Product Page
+!["Product"](/storage/assets/User/product.PNG)
+##### Product Detail
+!["Product Detail"](/storage/assets/User/product_detail.PNG)
+##### Make an Order
+!["Order Page"](/storage/assets/User/make_an_order.PNG)
+##### List of Order
+!["List of Orders"](/storage/assets/User/order_list.PNG)
+##### Upload Proof of Transfer
+!["Proof of Transfer"](/storage/assets/User/upload_bukti.PNG)
+##### Order Detail
+!["Order Detail"](/storage/assets/User/order_detail.PNG)
+##### Edit Order
+!["Edit Order"](/storage/assets/User/edit_order.PNG)
+##### Submit a Review
+!["Submit a Review"](/storage/assets/User/submit_review.PNG)
+
+## In Summary
+ Feel free to explore the application and give it a try yourself. If you have any questions or encounter any issues, please don't hesitate to reach out. Your feedback is greatly appreciated. Happy exploring!!!
