@@ -40,7 +40,7 @@ To run Mpororocoffee locally, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/snykk/Mpororocoffee.git
+   git clone https://github.com/Muchstix/Mpororocoffee.git
    ```
 2. Change to the project directory
     ```bash
