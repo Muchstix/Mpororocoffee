@@ -14,39 +14,39 @@
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Farmers
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Purchase">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Purchase
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Purchase Records">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Purchase Records
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Advance">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Advance
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Petty Cash">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Petty Cash
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Stock">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Stock
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Reports">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Reports
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Branches">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Branches
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Users">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Users
             </a>
-	    <a class="nav-link" href="/transaction">
+	    <a class="nav-link" href="/Setting">
                 <div class="sb-nav-link-icon"><i class="fa-solid fa-fw fa-dollar-sign"></i></div>
                 Setting
             </a>

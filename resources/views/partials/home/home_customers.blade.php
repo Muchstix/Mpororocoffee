@@ -34,11 +34,10 @@
 
         <div class="col-lg-7 col-md-6">
           <div class="about-content" data-aos="fade-left" data-aos-delay="100">
-            <h2>About Laracoffee</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, quae saepe alias dicta illum eveniet qui
-              fugiat laborum, molestiae nesciunt placeat aliquam voluptate ratione minus nemo quos consectetur harum id
-              quibusdam cumque odit at, est velit? Neque totam voluptate possimus eum tempore, dolorum odio itaque
-              dolores inventore atque omnis ad.</p>
+            <h2>About Mpororo coffee</h2>
+            <p>A complex blend designed using beans from South America. 
+              Notes of caramelised brown sugar follow a citrus-like acidity,
+               ending with a smooth milk chocolate finish prominent with the addition of milk. A clean and bright coffee presents itself in the black drink. The Mpororo blend works well with bean to cup machines..</p>
           </div>
         </div>
       </div>
@@ -58,12 +57,14 @@
           <div class="icon-box icon-box-pink">
             <div class="icon"><i class="fa fa-fw fa-dumpster"
                 style="font-size: 48px;margin-bottom: 15px;line-height: 1;color:orange;"></i></div>
-            <h4 class="title"><a href="">Why Laracoffee?</a></h4>
-            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde natus nesciunt
-              exercitationem, libero odit quia consequuntur ullam nostrum ducimus, fugit aspernatur error, placeat
-              voluptatibus incidunt modi eligendi culpa dolor nihil.</p>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic temporibus, et
-              odit sed ut molestiae. Architecto, suscipit!</p>
+            <h4 class="title"><a href="">Why mpororo coffee?</a></h4>
+            <p class="description">Coffee is a popular beverage that researchers have studied extensively for its many health benefits, 
+              including its ability to increase energy levels, promote weight management, enhance athletic performance, 
+              and protect against chronic disease.</p>
+            <p class="description">Coffee can improve focus and alertness.
+               This can be beneficial for business meetings and negotiations. 
+               Coffee can boost energy levels. This can be helpful for people who are feeling tired or sluggish, 
+              especially during long business days.</p>
           </div>
         </div>
 
@@ -72,8 +73,11 @@
             <div class="icon"><i class="fa fa-basket-shopping"
                 style="font-size: 48px;margin-bottom: 15px;line-height: 1;color:#3fcdc7;"></i></div>
             <h4 class="title"><a href="">Easy way to order!</a></h4>
-            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor suscipit odio, autem
-              quos eos eveniet explicabo perferendis dolore quae cum molestiae itaque nostrum!</p>
+            <p class="description">Coffee can improve focus and alertness. 
+              This can be beneficial for business meetings and negotiations. 
+              Coffee can boost energy levels. 
+              This can be helpful for people who are feeling tired or sluggish, 
+              especially during long business days.</p>
             <ul class="description">
               <li>Lorem ipsum dolor sit amet consectetur.</li>
               <li>Lorem ipsum dolor sit.</li>
